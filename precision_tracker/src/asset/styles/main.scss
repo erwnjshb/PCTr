@@ -1,0 +1,56 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+.hidden {
+  display: none;
+}
+
+#calc-container {
+  margin: 50px auto;
+}
+.display-5 {
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.navbar-brand {
+  font-size: 3rem;
+  margin-right: 3rem;
+  font-weight: 800;
+}
+//weight and height converter
+.container-w {
+  padding: 3em;
+
+  border-radius: 0.6em;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+.input-wrapper input {
+  display: block;
+  width: 100%;
+  font-size: 1.35em;
+  padding: 0.4em;
+  border: 0.1px solid #575757;
+  border-radius: 0.2em;
+  background-color: transparent;
+}
+.input-wrapper label {
+  display: block;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+.input-wrapper:not(:last-child) {
+  margin-bottom: 1.2em;
+}
+@media screen and (max-width: 28em) {
+  .container-w {
+    font-size: 14px;
+  }
+}
+.table-responsive {
+  height: 400px;
+}
