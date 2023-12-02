@@ -11984,7 +11984,7 @@ textarea.form-control-lg {
   margin: 50px auto;
 }
 
-.display-5 {
+.display-3 {
   font-weight: 700;
   margin-bottom: 3rem;
 }
@@ -11996,7 +11996,8 @@ textarea.form-control-lg {
 }
 
 .container-w {
-  padding: 3em;
+  font-size: 13px;
+  padding: 0 3rem 3rem 3rem;
   border-radius: 0.6em;
 }
 

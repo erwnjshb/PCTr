@@ -15,7 +15,7 @@ let result = document.getElementById("result");
 let calcBtn = document.getElementById("calculate");
 let activity = document.getElementById("activity");
 let table = document.getElementById("table");
-
+let idealWeight = document.getElementById("ideal-weight");
 const toastLiveExample = document.getElementById("liveToast");
 const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
 // formula:
@@ -63,103 +63,11 @@ const selectedActivity = (resultedBmr) => {
   }
 };
 
-const calculate = () => {
-  if (
-    gender.value == "male" &&
-    weight.value != "" &&
-    height.value != "" &&
-    age.value != "" &&
-    activity.value != "Activity"
-  ) {
-    result.textContent = `${
-      activity.options[activity.selectedIndex].text
-    }: ${selectedActivity(maleBmr())} calories per day`;
-
-    table.innerHTML = `<tr>
-    <td class="table-group-divider">Basal Metabolic Rate</td>
-    <td class="table-group-divider">${
-      displayAll(maleBmr())[0]
-    } calories per day</td>
-  </tr>
-  <tr>
-    <td>Sedentary (Office Job)</td>
-    <td>${displayAll(maleBmr())[1]} calories per day</td>
-  </tr>
-  <tr>
-    <td>Light Exercise</td>
-    <td>${displayAll(maleBmr())[2]} calories per day</td>
-  </tr>
-  <tr>
-    <td>Moderate Exercise</td>
-    <td>${displayAll(maleBmr())[3]} calories per day</td>
-  </tr>
-  <tr>
-    <td>Heavy Exercise</td>
-    <td>${displayAll(maleBmr())[4]} calories per day</td>
-  </tr>
-  <tr>
-    <td>Athlete</td>
-    <td>${displayAll(maleBmr())[5]} calories per day</td>
-  </tr>`;
-  } else if (
-    gender.value == "female" &&
-    weight.value != "" &&
-    height.value != "" &&
-    age.value != "" &&
-    activity.value != "Activity"
-  ) {
-    result.textContent = `${
-      activity.options[activity.selectedIndex].text
-    }: ${selectedActivity(femaleBmr())} calories per day`;
-    //
-    table.innerHTML = `<tr>
-    <td class="table-group-divider">Basal Metabolic Rate</td>
-    <td class="table-group-divider">${
-      displayAll(femaleBmr())[0]
-    } calories per day</td>
-  </tr>
-  <tr>
-    <td>Sedentary (Office Job)</td>
-    <td>${displayAll(femaleBmr())[1]} calories per day</td>
-  </tr>
-  <tr>
-    <td>Light Exercise</td>
-    <td>${displayAll(femaleBmr())[2]} calories per day</td>
-  </tr>
-  <tr>
-    <td>Moderate Exercise</td>
-    <td>${displayAll(femaleBmr())[3]} calories per day</td>
-  </tr>
-  <tr>
-    <td>Heavy Exercise</td>
-    <td>${displayAll(femaleBmr())[4]} calories per day</td>
-  </tr>
-  <tr>
-    <td>Athlete</td>
-    <td>${displayAll(femaleBmr())[5]} calories per day</td>
-  </tr>`;
-  } else {
-    toastBootstrap.show();
-  }
-};
-
-calcBtn.addEventListener("click", calculate);
-
 //weight converter
 let kgRef = document.getElementById("kg");
 let lbRef = document.getElementById("lb");
 let ozRef = document.getElementById("oz");
-function record() {
-  var recognition = new webkitSpeechRecognition();
 
-  recognition.lang = "en-US";
-
-  recognition.onresult = function (event) {
-    console.log(event);
-    kgRef.value = parseInt(event.results[0][0].transcript);
-  };
-  recognition.start();
-}
 let convertFromKg = () => {
   let kg = kgRef.value;
   //toFixed(2) limits the decimals to 2 digits.
@@ -182,7 +90,6 @@ let convertFromOz = () => {
 kgRef.addEventListener("input", convertFromKg);
 lbRef.addEventListener("input", convertFromLb);
 ozRef.addEventListener("input", convertFromOz);
-window.addEventListener("load", convertFromKg);
 
 //height converter
 let incRef = document.getElementById("inc");
@@ -211,11 +118,11 @@ let convertFromft = () => {
 incRef.addEventListener("input", convertFromInc);
 cmRef.addEventListener("input", convertFromcm);
 ftRef.addEventListener("input", convertFromft);
-window.addEventListener("load", convertFromcm);
 
 //converterBTN
 let converter = document.getElementById("converter");
 let whconverter = document.getElementsByClassName("container-w");
+let extraConveter = document.getElementById("x-converter");
 
 converter.addEventListener("click", () => {
   for (let i = 0; i < whconverter.length; i++) {
@@ -226,17 +133,75 @@ converter.addEventListener("click", () => {
     }
   }
 });
+//IDEAL WEIGHT
+
+// G. J. Hamwi Formula (1964)
+function calculateHamwiWeight(height, isMale) {
+  const baseWeight = isMale ? 48.0 : 45.5;
+  const weightPerInch = isMale ? 2.7 : 2.2;
+  return baseWeight + weightPerInch * Math.max(0, height - 60);
+}
+
+// B. J. Devine Formula (1974)
+function calculateDevineWeight(height, isMale) {
+  const baseWeight = isMale ? 50.0 : 45.5;
+  const weightPerInch = 2.3;
+  return baseWeight + weightPerInch * Math.max(0, height - 60);
+}
+
+// J. D. Robinson Formula (1983)
+function calculateRobinsonWeight(height, isMale) {
+  const baseWeight = isMale ? 52.0 : 49.0;
+  const weightPerInch = isMale ? 1.9 : 1.7;
+  return baseWeight + weightPerInch * Math.max(0, height - 60);
+}
+
+// D. R. Miller Formula (1983)
+function calculateMillerWeight(height, isMale) {
+  const baseWeight = isMale ? 56.2 : 53.1;
+  const weightPerInch = isMale ? 1.41 : 1.36;
+  return baseWeight + weightPerInch * Math.max(0, height - 60);
+}
+
+//BMI CALCULATE
+let display_bmi = document.getElementById("bmi");
+let table_bmi = document.getElementById("bmi-table");
+
+function calculateBMI(weight, height) {
+  // BMI formula: weight (kg) / (height (m) * height (m))
+  const bmi = weight / ((height / 100) * (height / 100));
+
+  let classification;
+  if (bmi < 18.5) {
+    classification = "Underweight";
+  } else if (bmi <= 24.9) {
+    classification = "Normal Weight";
+  } else if (bmi <= 29.9) {
+    classification = "Overweight";
+  } else {
+    classification = "Obese";
+  }
+
+  return {
+    bmi: bmi.toFixed(2),
+    classification: classification,
+  };
+}
+const bmiResult = calculateBMI(weight.value, height.value);
 
 //COLOR THEME
 let light = document.getElementById("light");
 let dark = document.getElementById("dark");
 let htmlTheme = document.getElementsByTagName("html");
+let logo = document.getElementById("logo");
 
 light.addEventListener("click", () => {
   htmlTheme[0].removeAttribute("data-bs-theme");
+  logo.src = "asset/images/LOGO PCT/light.png";
 });
 dark.addEventListener("click", () => {
   htmlTheme[0].setAttribute("data-bs-theme", "dark");
+  logo.src = "asset/images/LOGO PCT/dark.png";
 });
 
 //METS
@@ -245,6 +210,8 @@ new DataTable("#tablepress-5");
 let metValue = document.getElementById("metValue");
 let tableMet = document.getElementById("tablepress-5");
 let dataMet = document.getElementById("tablepress-5_wrapper");
+let metsLabel = document.getElementById("mets-label");
+let metsRow = document.getElementById("mets-row");
 
 tableMet.classList.add("hidden");
 dataMet.classList.add("hidden");
@@ -256,8 +223,200 @@ metValue.addEventListener("click", () => {
   ) {
     tableMet.classList.remove("hidden");
     dataMet.classList.remove("hidden");
+    metsLabel.classList.remove("hidden");
+    metsRow.classList.remove("hidden");
+    metsResult.classList.remove("hidden");
   } else {
     tableMet.classList.add("hidden");
     dataMet.classList.add("hidden");
+    metsLabel.classList.add("hidden");
+    metsRow.classList.add("hidden");
+    metsResult.classList.add("hidden");
   }
 });
+
+const calculate = () => {
+  const bmiResult = calculateBMI(weight.value, height.value);
+  if (
+    gender.value == "male" &&
+    weight.value != "" &&
+    height.value != "" &&
+    age.value != "" &&
+    activity.value != "Activity"
+  ) {
+    result.innerHTML = `${
+      activity.options[activity.selectedIndex].text
+    }: ${selectedActivity(maleBmr())} calories per day <br> ${
+      activity.options[activity.selectedIndex].text
+    }: ${selectedActivity(maleBmr()) * 7} calories per week`;
+
+    table.innerHTML = `<tr>
+    <td class="table-group-divider">Basal Metabolic Rate</td>
+    <td class="table-group-divider">${
+      displayAll(maleBmr())[0]
+    } calories per day</td>
+  </tr>
+  <tr>
+    <td>Sedentary (Office Job)</td>
+    <td>${displayAll(maleBmr())[1]} calories per day</td>
+  </tr>
+  <tr>
+    <td>Light Exercise</td>
+    <td>${displayAll(maleBmr())[2]} calories per day</td>
+  </tr>
+  <tr>
+    <td>Moderate Exercise</td>
+    <td>${displayAll(maleBmr())[3]} calories per day</td>
+  </tr>
+  <tr>
+    <td>Heavy Exercise</td>
+    <td>${displayAll(maleBmr())[4]} calories per day</td>
+  </tr>
+  <tr>
+    <td>Athlete</td>
+    <td>${displayAll(maleBmr())[5]} calories per day</td>
+  </tr>`;
+    idealWeight.innerHTML = `
+    <tr>
+          <th>Ideal Weight Formula</th>
+          <th>Weight (kg)</th>
+        </tr>
+  <tr>
+          <td class="table-group-divider">Robinson (1983)</td>
+          <td class="table-group-divider">${Math.round(
+            calculateRobinsonWeight(height.value * 0.3937, true)
+          )} kilogram</td>
+        </tr>
+        <tr>
+          <td>Miller (1983)</td>
+          <td>${Math.round(
+            calculateMillerWeight(height.value * 0.3937, true)
+          )} kilogram</td>
+        </tr>
+        <tr>
+          <td>Devine (1974)</td>
+          <td>${Math.round(
+            calculateDevineWeight(height.value * 0.3937, true)
+          )} kilogram</td>
+        </tr>
+        <tr>
+          <td>Hamwi (1964)</td>
+          <td>${Math.round(
+            calculateHamwiWeight(height.value * 0.3937, true)
+          )} kilogram</td>
+        </tr>
+  `;
+    display_bmi.textContent = `BMI: ${bmiResult.bmi}, you are ${bmiResult.classification}`;
+    table_bmi.innerHTML = `
+        <tr class="table-group-divider">
+          <td>Less than 18.5</td>
+          <td>Underweight</td>
+        </tr>
+        <tr>
+          <td>18.5 - 24.9</td>
+          <td>Normal Weight</td>
+        </tr>
+        <tr>
+          <td>25 - 29.9</td>
+          <td>Overweight</td>
+        </tr>
+        <tr>
+          <td>30+</td>
+          <td>Obese</td>
+        </tr>
+    `;
+  } else if (
+    gender.value == "female" &&
+    weight.value != "" &&
+    height.value != "" &&
+    age.value != "" &&
+    activity.value != "Activity"
+  ) {
+    result.innerHTML = `${
+      activity.options[activity.selectedIndex].text
+    }: ${selectedActivity(femaleBmr())} calories per day <br> ${
+      activity.options[activity.selectedIndex].text
+    }: ${selectedActivity(femaleBmr()) * 7} calories per week`;
+    //
+    table.innerHTML = `
+    <tr>
+      <td class="table-group-divider">Basal Metabolic Rate</td>
+      <td class="table-group-divider">${
+        displayAll(femaleBmr())[0]
+      } calories per day</td>
+    </tr>
+    <tr>
+      <td>Sedentary (Office Job)</td>
+      <td>${displayAll(femaleBmr())[1]} calories per day</td>
+    </tr>
+    <tr>
+      <td>Light Exercise</td>
+      <td>${displayAll(femaleBmr())[2]} calories per day</td>
+    </tr>
+    <tr>
+      <td>Moderate Exercise</td>
+      <td>${displayAll(femaleBmr())[3]} calories per day</td>
+    </tr>
+    <tr>
+      <td>Heavy Exercise</td>
+      <td>${displayAll(femaleBmr())[4]} calories per day</td>
+    </tr>
+    <tr>
+      <td>Athlete</td>
+      <td>${displayAll(femaleBmr())[5]} calories per day</td>
+    </tr>`;
+    idealWeight.innerHTML = `
+      <tr>
+          <th>Ideal Weight Formula</th>
+          <th>Weight (kg)</th>
+      </tr>
+      <tr>
+        <td class="table-group-divider">Robinson (1983)</td>
+        <td class="table-group-divider">${Math.round(
+          calculateRobinsonWeight(height.value * 0.3937, false)
+        )} kilogram</td>
+      </tr>
+      <tr>
+        <td>Miller (1983)</td>
+        <td>${Math.round(
+          calculateMillerWeight(height.value * 0.3937, false)
+        )} kilogram</td>
+      </tr>
+      <tr>
+          <td>Devine (1974)</td>
+          <td>${Math.round(
+            calculateDevineWeight(height.value * 0.3937, false)
+          )} kilogram</td>
+      </tr>
+      <tr>
+        <td>Hamwi (1964)</td>
+        <td>${Math.round(
+          calculateHamwiWeight(height.value * 0.3937, false)
+        )} kilogram</td>
+      </tr>
+  `;
+    display_bmi.textContent = `BMI: ${bmiResult.bmi}, you are ${bmiResult.classification}`;
+    table_bmi.innerHTML = `
+        <tr>
+          <td>Less than 18.5</td>
+          <td>Underweight</td>
+        </tr>
+        <tr>
+          <td>18.5 - 24.9</td>
+          <td>Normal Weight</td>
+        </tr>
+        <tr>
+          <td>25 - 29.9</td>
+          <td>Overweight</td>
+        </tr>
+        <tr>
+          <td>30+</td>
+          <td>Obese</td>
+        </tr>
+    `;
+  } else {
+    toastBootstrap.show();
+  }
+};
+
+calcBtn.addEventListener("click", calculate);
