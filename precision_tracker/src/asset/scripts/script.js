@@ -246,9 +246,20 @@ const calculate = () => {
   ) {
     result.innerHTML = `${
       activity.options[activity.selectedIndex].text
-    }: ${selectedActivity(maleBmr())} calories per day <br> ${
-      activity.options[activity.selectedIndex].text
-    }: ${selectedActivity(maleBmr()) * 7} calories per week`;
+    }: ${selectedActivity(maleBmr())} calories per day <br>
+    <span id="x-info" >${activity.options[activity.selectedIndex].text}: ${
+      selectedActivity(maleBmr()) * 7
+    } calories per week
+      <br>
+      <i class="fa-solid fa-angles-up" style="color: #5da2b1;"></i> Surplus: ${
+        selectedActivity(maleBmr()) + 300
+      } kcal/day
+      <br>
+      <i class="fa-solid fa-angles-down" style="color: #5da2b1;"></i> Deficit: ${
+        selectedActivity(maleBmr()) - 250
+      } kcal/day
+    </span>
+    `;
 
     table.innerHTML = `<tr>
     <td class="table-group-divider">Basal Metabolic Rate</td>

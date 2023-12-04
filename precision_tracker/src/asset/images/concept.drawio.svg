@@ -1,0 +1,365 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="742px" height="412px" viewBox="-0.5 -0.5 742 412" content="&lt;mxfile&gt;&lt;diagram id=&quot;Ts5p-L9kFvUWx-CkuaKH&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
+    <defs/>
+    <g>
+        <path d="M 1 31 L 1 1 L 191 1 L 191 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1 31 L 1 411 L 191 411 L 191 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 31 L 191 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 188px; height: 1px; padding-top: 16px; margin-left: 2px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <font face="Times New Roman">
+                                    <b>
+                                        INPUT
+                                    </b>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="96" y="20" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    INPUT
+                </text>
+            </switch>
+        </g>
+        <rect x="1" y="31" width="190" height="380" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 180px; height: 1px; padding-top: 221px; margin-left: 7px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 376px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <span id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
+                                    <div>
+                                        <span style="font-size: 9pt; font-family: &quot;Times New Roman&quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                            <span id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7">
+                                                <div>
+                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                        <span id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0">
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    <b>
+                                                                        User's Information
+                                                                    </b>
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Age
+                                                                    <br/>
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Gender
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Height
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Weight
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Activity
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:12pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    User’s activity level
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  BMR
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Sedentary
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Lightly active
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Moderate active
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Heavy active
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Athlete
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:12pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    Multi-Conversion
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Weight
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Height
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Distance
+                                                                </span>
+                                                            </p>
+                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    ·  Time
+                                                                </span>
+                                                            </p>
+                                                            <div>
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    <br/>
+                                                                </span>
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="7" y="225" fill="#000000" font-family="Helvetica" font-size="12px">
+                    User's Information...
+                </text>
+            </switch>
+        </g>
+        <path d="M 241 96 L 241 66 L 471 66 L 471 96" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 241 96 L 241 346 L 471 346 L 471 96" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 241 96 L 471 96" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 81px; margin-left: 242px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <font face="Times New Roman">
+                                    <b>
+                                        PROCESS
+                                    </b>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="356" y="85" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    PROCESS
+                </text>
+            </switch>
+        </g>
+        <rect x="241" y="96" width="230" height="250" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 220px; height: 1px; padding-top: 221px; margin-left: 247px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 246px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <span id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
+                                    <div>
+                                        <span style="font-size: 9pt; font-family: &quot;Times New Roman&quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                            <span id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7">
+                                                <div>
+                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                        <span id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0">
+                                                            <div>
+                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                    <span id="docs-internal-guid-4f892dad-7fff-0e1a-c4c6-583ef0071a09">
+                                                                        <ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:12pt;margin-bottom:0pt;" role="presentation">
+                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                        Conversion algorithms for weight, height, distance, and time.
+                                                                                    </span>
+                                                                                </p>
+                                                                            </li>
+                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                        TDEE and BMR computation.
+                                                                                    </span>
+                                                                                </p>
+                                                                            </li>
+                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                        Calorie surplus or deficit computation
+                                                                                    </span>
+                                                                                </p>
+                                                                            </li>
+                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                        BMI computation.
+                                                                                    </span>
+                                                                                </p>
+                                                                            </li>
+                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:12pt;margin-bottom:0pt;" role="presentation">
+                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                        Ideal weight estimation.
+                                                                                    </span>
+                                                                                </p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="247" y="225" fill="#000000" font-family="Helvetica" font-size="12px">
+                    Conversion algorithms for weight, hei...
+                </text>
+            </switch>
+        </g>
+        <path d="M 511 101 L 511 71 L 741 71 L 741 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 101 L 511 341 L 741 341 L 741 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 101 L 741 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 86px; margin-left: 512px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <font face="Times New Roman">
+                                    <b>
+                                        OUTPUT
+                                    </b>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="626" y="90" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    OUTPUT
+                </text>
+            </switch>
+        </g>
+        <rect x="511" y="101" width="230" height="240" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 220px; height: 1px; padding-top: 221px; margin-left: 517px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 236px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <span id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
+                                    <span style="font-size: 9pt; font-family: &quot;Times New Roman&quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                        <span id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7">
+                                            <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                <span id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0">
+                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                        <span id="docs-internal-guid-4f892dad-7fff-0e1a-c4c6-583ef0071a09">
+                                                            <div style="text-align: justify;">
+                                                                <span id="docs-internal-guid-7433e872-7fff-bc05-4f35-df985e9cc902">
+                                                                    <ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                            <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:0pt;" role="presentation">
+                                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                    Converted values for weight, height, distance, and time.
+                                                                                </span>
+                                                                            </p>
+                                                                        </li>
+                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+                                                                                <span style="font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                    Calculated TDEE and BMR values.
+                                                                                </span>
+                                                                            </p>
+                                                                        </li>
+                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+                                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                    Suggested Calorie Surplus/Deficit
+                                                                                </span>
+                                                                            </p>
+                                                                        </li>
+                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+                                                                                <span style="font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                    Cumulative energy expenditure from physical activities.
+                                                                                </span>
+                                                                            </p>
+                                                                        </li>
+                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+                                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                    BMI result
+                                                                                </span>
+                                                                            </p>
+                                                                        </li>
+                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                            <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:0pt;" role="presentation">
+                                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                                                    Estimated user’s Ideal Weight.
+                                                                                </span>
+                                                                            </p>
+                                                                        </li>
+                                                                    </ul>
+                                                                </span>
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="517" y="225" fill="#000000" font-family="Helvetica" font-size="12px">
+                    Converted values for weight, height,...
+                </text>
+            </switch>
+        </g>
+        <path d="M 191 221 L 230.9 221" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 237.65 221 L 228.65 225.5 L 230.9 221 L 228.65 216.5 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 471 221 L 500.9 221" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 507.65 221 L 498.65 225.5 L 500.9 221 L 498.65 216.5 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>

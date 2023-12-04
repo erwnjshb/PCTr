@@ -12036,3 +12036,8 @@ h2, .h2 {
 .table-responsive {
   height: 400px;
 }
+
+#x-info {
+  font-size: 2rem;
+  color: rgb(93, 162, 177);
+}
