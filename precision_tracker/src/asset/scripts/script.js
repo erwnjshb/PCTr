@@ -345,9 +345,20 @@ const calculate = () => {
   ) {
     result.innerHTML = `${
       activity.options[activity.selectedIndex].text
-    }: ${selectedActivity(femaleBmr())} calories per day <br> ${
+    }: ${selectedActivity(
+      femaleBmr()
+    )} calories per day <br> <span id="x-info" >${
       activity.options[activity.selectedIndex].text
-    }: ${selectedActivity(femaleBmr()) * 7} calories per week`;
+    }: ${selectedActivity(femaleBmr()) * 7} calories per week
+      <br>
+      <i class="fa-solid fa-angles-up" style="color: #5da2b1;"></i> Surplus: ${
+        selectedActivity(femaleBmr()) + 300
+      } kcal/day
+      <br>
+      <i class="fa-solid fa-angles-down" style="color: #5da2b1;"></i> Deficit: ${
+        selectedActivity(femaleBmr()) - 250
+      } kcal/day
+    </span>`;
     //
     table.innerHTML = `
     <tr>

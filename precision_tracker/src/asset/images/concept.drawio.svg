@@ -1,337 +1,283 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="742px" height="412px" viewBox="-0.5 -0.5 742 412" content="&lt;mxfile&gt;&lt;diagram id=&quot;Ts5p-L9kFvUWx-CkuaKH&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1023px" height="519px" viewBox="-0.5 -0.5 1023 519" content="&lt;mxfile&gt;&lt;diagram id=&quot;Ts5p-L9kFvUWx-CkuaKH&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <path d="M 1 31 L 1 1 L 191 1 L 191 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
-        <path d="M 1 31 L 1 411 L 191 411 L 191 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 1 31 L 191 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 31 L 0 1 L 190 1 L 190 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 31 L 0 301 L 190 301 L 190 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 31 L 190 31" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 188px; height: 1px; padding-top: 16px; margin-left: 2px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 188px; height: 1px; padding-top: 16px; margin-left: 1px;">
                         <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
-                                <font face="Times New Roman">
-                                    <b>
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <font style="font-size: 13px;">
+                                    <span style="font-size: 13px;">
                                         INPUT
-                                    </b>
+                                    </span>
                                 </font>
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="96" y="20" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                <text x="95" y="20" fill="#000000" font-family="Times New Roman" font-size="13px" text-anchor="middle" font-weight="bold">
                     INPUT
                 </text>
             </switch>
         </g>
-        <rect x="1" y="31" width="190" height="380" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <rect x="0" y="31" width="190" height="270" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 180px; height: 1px; padding-top: 221px; margin-left: 7px;">
-                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 376px; overflow: hidden;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
-                                <span id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
-                                    <div>
-                                        <span style="font-size: 9pt; font-family: &quot;Times New Roman&quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                            <span id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7">
-                                                <div>
-                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                        <span id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0">
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    <b>
-                                                                        User's Information
-                                                                    </b>
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Age
-                                                                    <br/>
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Gender
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Height
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Weight
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Activity
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:12pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    User’s activity level
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  BMR
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Sedentary
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Lightly active
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Moderate active
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Heavy active
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Athlete
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:12pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    Multi-Conversion
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Weight
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Height
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Distance
-                                                                </span>
-                                                            </p>
-                                                            <p dir="ltr" style="line-height:1.38;margin-right: 7pt;margin-top:0pt;margin-bottom:0pt;">
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    ·  Time
-                                                                </span>
-                                                            </p>
-                                                            <div>
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    <br/>
-                                                                </span>
-                                                            </div>
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 180px; height: 1px; padding-top: 166px; margin-left: 6px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 266px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <span style="font-size: 13px;" id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
+                                    <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                        <span style="font-size: 13px;" id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7">
+                                            <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                <span style="font-size: 13px;" id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0">
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px;">
+                                                            Knowledge Requirements
                                                         </span>
-                                                    </span>
-                                                </div>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            ·  Appropriate Programming language
+                                                            <br style="font-size: 13px;"/>
+                                                        </span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            ·  Method Algorithm
+                                                        </span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            ·  Website Responsiveness
+                                                        </span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            ·  Health and fitness Concept
+                                                            <br style="font-size: 13px;"/>
+                                                        </span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 12pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            Software Requirements
+                                                        </span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            ·  VScode, Html, CSS, SCSS, JavaScript
+                                                        </span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            <br style="font-size: 13px;"/>
+                                                        </span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 12pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            Hardware Requirements
+                                                        </span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;"></span>
+                                                    </p>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            ·  Desktop, Laptop, and Phone
+                                                        </span>
+                                                    </p>
+                                                    <div style="font-size: 13px;">
+                                                        <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                            <br style="font-size: 13px;"/>
+                                                        </span>
+                                                    </div>
+                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; margin-top: 12pt; margin-bottom: 0pt; font-size: 13px;">
+                                                        <br style="font-size: 13px;"/>
+                                                    </p>
+                                                </span>
                                             </span>
                                         </span>
-                                    </div>
+                                    </span>
                                 </span>
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="7" y="225" fill="#000000" font-family="Helvetica" font-size="12px">
-                    User's Information...
+                <text x="6" y="170" fill="#000000" font-family="Times New Roman" font-size="13px" font-weight="bold">
+                    Knowledge Requirements...
                 </text>
             </switch>
         </g>
-        <path d="M 241 96 L 241 66 L 471 66 L 471 96" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 241 96 L 241 346 L 471 346 L 471 96" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 241 96 L 471 96" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 231 101 L 231 71 L 461 71 L 461 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 231 101 L 231 231 L 461 231 L 461 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 231 101 L 461 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 81px; margin-left: 242px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 86px; margin-left: 232px;">
                         <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
-                                <font face="Times New Roman">
-                                    <b>
-                                        PROCESS
-                                    </b>
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <font style="font-size: 13px;">
+                                    <span style="font-size: 13px;">
+                                        PROCESS AND DEVELOPMENT
+                                    </span>
                                 </font>
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="356" y="85" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    PROCESS
+                <text x="346" y="90" fill="#000000" font-family="Times New Roman" font-size="13px" text-anchor="middle" font-weight="bold">
+                    PROCESS AND DEVELOPMENT
                 </text>
             </switch>
         </g>
-        <rect x="241" y="96" width="230" height="250" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <rect x="231" y="101" width="230" height="130" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 220px; height: 1px; padding-top: 221px; margin-left: 247px;">
-                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 246px; overflow: hidden;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
-                                <span id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
-                                    <div>
-                                        <span style="font-size: 9pt; font-family: &quot;Times New Roman&quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                            <span id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7">
-                                                <div>
-                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                        <span id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0">
-                                                            <div>
-                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                    <span id="docs-internal-guid-4f892dad-7fff-0e1a-c4c6-583ef0071a09">
-                                                                        <ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
-                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:12pt;margin-bottom:0pt;" role="presentation">
-                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                        Conversion algorithms for weight, height, distance, and time.
-                                                                                    </span>
-                                                                                </p>
-                                                                            </li>
-                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
-                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                        TDEE and BMR computation.
-                                                                                    </span>
-                                                                                </p>
-                                                                            </li>
-                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
-                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                        Calorie surplus or deficit computation
-                                                                                    </span>
-                                                                                </p>
-                                                                            </li>
-                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
-                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                        BMI computation.
-                                                                                    </span>
-                                                                                </p>
-                                                                            </li>
-                                                                            <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                                <p dir="ltr" style="line-height:1.38;margin-right: 7pt;text-align: justify;margin-top:12pt;margin-bottom:0pt;" role="presentation">
-                                                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                        Ideal weight estimation.
-                                                                                    </span>
-                                                                                </p>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 220px; height: 1px; padding-top: 166px; margin-left: 237px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 126px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <span style="font-size: 13px;" id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
+                                    <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                        <span style="font-size: 13px;" id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7">
+                                            <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                <span style="font-size: 13px;" id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0">
+                                                    <span style="font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
+                                                        <span style="font-size: 13px;" id="docs-internal-guid-4f892dad-7fff-0e1a-c4c6-583ef0071a09">
+                                                            <ul style="margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px; font-size: 13px;">
+                                                                <li dir="ltr" style="list-style-type: disc; font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; text-align: justify; margin-top: 12pt; margin-bottom: 0pt; font-size: 13px;" role="presentation">
+                                                                        Outlining task and resoure allocation
+                                                                    </p>
+                                                                </li>
+                                                                <li dir="ltr" style="list-style-type: disc; font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
+                                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; text-align: justify; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;" role="presentation">
+                                                                        Website Development (Html, CSS, SCSS, Js)
+                                                                    </p>
+                                                                </li>
+                                                            </ul>
                                                         </span>
                                                     </span>
-                                                </div>
+                                                </span>
                                             </span>
                                         </span>
-                                    </div>
+                                    </span>
                                 </span>
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="247" y="225" fill="#000000" font-family="Helvetica" font-size="12px">
-                    Conversion algorithms for weight, hei...
+                <text x="237" y="170" fill="#000000" font-family="Times New Roman" font-size="13px" font-weight="bold">
+                    Outlining task and resoure allocat...
                 </text>
             </switch>
         </g>
-        <path d="M 511 101 L 511 71 L 741 71 L 741 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 511 101 L 511 341 L 741 341 L 741 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 511 101 L 741 101" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 626 286 L 626 456 Q 626 466 616 466.06 L 471.1 466.94" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464.35 466.98 L 473.33 462.43 L 471.1 466.94 L 473.38 471.43 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 46 L 511 16 L 741 16 L 741 46" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 46 L 511 286 L 741 286 L 741 46" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 46 L 741 46" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 86px; margin-left: 512px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 31px; margin-left: 512px;">
                         <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
-                                <font face="Times New Roman">
-                                    <b>
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <font style="font-size: 13px;">
+                                    <span style="font-size: 13px;">
                                         OUTPUT
-                                    </b>
+                                    </span>
                                 </font>
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="626" y="90" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                <text x="626" y="35" fill="#000000" font-family="Times New Roman" font-size="13px" text-anchor="middle" font-weight="bold">
                     OUTPUT
                 </text>
             </switch>
         </g>
-        <rect x="511" y="101" width="230" height="240" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <rect x="511" y="46" width="230" height="240" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 220px; height: 1px; padding-top: 221px; margin-left: 517px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 220px; height: 1px; padding-top: 166px; margin-left: 517px;">
                         <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 236px; overflow: hidden;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
-                                <span id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
-                                    <span style="font-size: 9pt; font-family: &quot;Times New Roman&quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                        <span id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7">
-                                            <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                <span id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0">
-                                                    <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                        <span id="docs-internal-guid-4f892dad-7fff-0e1a-c4c6-583ef0071a09">
-                                                            <div style="text-align: justify;">
-                                                                <span id="docs-internal-guid-7433e872-7fff-bc05-4f35-df985e9cc902">
-                                                                    <ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
-                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                            <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:0pt;" role="presentation">
-                                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                    Converted values for weight, height, distance, and time.
-                                                                                </span>
-                                                                            </p>
-                                                                        </li>
-                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" role="presentation">
-                                                                                <span style="font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                    Calculated TDEE and BMR values.
-                                                                                </span>
-                                                                            </p>
-                                                                        </li>
-                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" role="presentation">
-                                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                    Suggested Calorie Surplus/Deficit
-                                                                                </span>
-                                                                            </p>
-                                                                        </li>
-                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" role="presentation">
-                                                                                <span style="font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                    Cumulative energy expenditure from physical activities.
-                                                                                </span>
-                                                                            </p>
-                                                                        </li>
-                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" role="presentation">
-                                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                    BMI result
-                                                                                </span>
-                                                                            </p>
-                                                                        </li>
-                                                                        <li dir="ltr" style="list-style-type: disc; font-size: 9pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;" aria-level="1">
-                                                                            <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:0pt;" role="presentation">
-                                                                                <span style="font-size: 9pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline;">
-                                                                                    Estimated user’s Ideal Weight.
-                                                                                </span>
-                                                                            </p>
-                                                                        </li>
-                                                                    </ul>
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <span style="font-size: 13px;" id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
+                                    <span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;">
+                                        <span id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7" style="font-size: 13px;">
+                                            <span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;">
+                                                <span id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0" style="font-size: 13px;">
+                                                    <span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;">
+                                                        <span id="docs-internal-guid-4f892dad-7fff-0e1a-c4c6-583ef0071a09" style="font-size: 13px;">
+                                                            <div style="text-align: center; font-size: 13px;">
+                                                                <span id="docs-internal-guid-7433e872-7fff-bc05-4f35-df985e9cc902" style="font-size: 13px;">
+                                                                    <span id="docs-internal-guid-36370000-7fff-c0cd-013f-c472e875c075" style="font-size: 13px;">
+                                                                        <span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;">
+                                                                            <font style="font-size: 13px;">
+                                                                                PRECISION CALORIE TRACKER: ACHIEVE HEALTH AND WEIGHT GOALS WITH ACCURACY
+                                                                            </font>
+                                                                        </span>
+                                                                    </span>
+                                                                    <br style="font-size: 13px;"/>
                                                                 </span>
+                                                            </div>
+                                                            <div style="text-align: center; font-size: 13px;">
+                                                                <span style="font-size: 13px;">
+                                                                    <span style="font-size: 13px;">
+                                                                        <span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;">
+                                                                            <font style="font-size: 13px;">
+                                                                                <br style="font-size: 13px;"/>
+                                                                            </font>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                            <div style="font-size: 13px;">
+                                                                <ul style="font-size: 13px;">
+                                                                    <li style="font-size: 13px;">
+                                                                        <span style="font-size: 13px;">
+                                                                            Calorie Tracking
+                                                                        </span>
+                                                                    </li>
+                                                                    <li style="font-size: 13px;">
+                                                                        <span style="font-size: 13px;">
+                                                                            BMI
+                                                                        </span>
+                                                                    </li>
+                                                                    <li style="font-size: 13px;">
+                                                                        <span style="font-size: 13px;">
+                                                                            Ideal Weight
+                                                                        </span>
+                                                                    </li>
+                                                                    <li style="font-size: 13px;">
+                                                                        <span style="font-size: 13px;">
+                                                                            Colorie Surplus/Deficit
+                                                                        </span>
+                                                                    </li>
+                                                                    <li style="font-size: 13px;">
+                                                                        <span style="font-size: 13px;">
+                                                                            TDEE
+                                                                        </span>
+                                                                    </li>
+                                                                    <li style="font-size: 13px;">
+                                                                        <span style="font-size: 13px;">
+                                                                            METS
+                                                                        </span>
+                                                                    </li>
+                                                                    <li style="font-size: 13px;">
+                                                                        <span style="font-size: 13px;">
+                                                                            Unit Converter
+                                                                        </span>
+                                                                    </li>
+                                                                </ul>
                                                             </div>
                                                         </span>
                                                     </span>
@@ -344,15 +290,148 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="517" y="225" fill="#000000" font-family="Helvetica" font-size="12px">
-                    Converted values for weight, height,...
+                <text x="517" y="170" fill="#000000" font-family="Times New Roman" font-size="13px" font-weight="bold">
+                    PRECISION CALORIE TRACKER: ACHIEVE...
                 </text>
             </switch>
         </g>
-        <path d="M 191 221 L 230.9 221" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 237.65 221 L 228.65 225.5 L 230.9 221 L 228.65 216.5 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 471 221 L 500.9 221" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 507.65 221 L 498.65 225.5 L 500.9 221 L 498.65 216.5 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 190 166 L 220.9 166" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 227.65 166 L 218.65 170.5 L 220.9 166 L 218.65 161.5 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 461 166 L 500.9 166" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 507.65 166 L 498.65 170.5 L 500.9 166 L 498.65 161.5 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 346 386 L 346 241.1" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 346 234.35 L 350.5 243.35 L 346 241.1 L 341.5 243.35 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 231 416 L 231 386 L 461 386 L 461 416" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 231 416 L 231 518 L 461 518 L 461 416" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 231 416 L 461 416" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 401px; margin-left: 232px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <font style="font-size: 13px;">
+                                    <span style="font-size: 13px;">
+                                        EVALUATION
+                                    </span>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="346" y="405" fill="#000000" font-family="Times New Roman" font-size="13px" text-anchor="middle" font-weight="bold">
+                    EVALUATION
+                </text>
+            </switch>
+        </g>
+        <rect x="231" y="416" width="230" height="102" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 220px; height: 1px; padding-top: 467px; margin-left: 237px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 98px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <span style="font-size: 13px;">
+                                    TESTING
+                                    <br style="font-size: 13px;"/>
+                                    <ul style="font-size: 13px;">
+                                        <li style="font-size: 13px;">
+                                            Tracker Accuracy
+                                        </li>
+                                        <li style="font-size: 13px;">
+                                            Website responsiveness
+                                        </li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="237" y="471" fill="#000000" font-family="Times New Roman" font-size="13px" font-weight="bold">
+                    TESTING...
+                </text>
+            </switch>
+        </g>
+        <path d="M 791 83 L 791 53 L 1021 53 L 1021 83" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 791 83 L 791 249 L 1021 249 L 1021 83" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 791 83 L 1021 83" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 68px; margin-left: 792px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <font style="font-size: 13px;">
+                                    <span style="font-size: 13px;">
+                                        OUTCOME
+                                    </span>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="906" y="72" fill="#000000" font-family="Times New Roman" font-size="13px" text-anchor="middle" font-weight="bold">
+                    OUTCOME
+                </text>
+            </switch>
+        </g>
+        <rect x="791" y="83" width="230" height="166" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 220px; height: 1px; padding-top: 166px; margin-left: 797px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 162px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: &quot;Times New Roman&quot;; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <span style="font-size: 13px;" id="docs-internal-guid-cdac94e8-7fff-eb2f-e5e4-06b44ec51ba0">
+                                    <span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;">
+                                        <span id="docs-internal-guid-3446b9ba-7fff-7308-21fd-2a4b045d3ca7" style="font-size: 13px;">
+                                            <span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;">
+                                                <span id="docs-internal-guid-ab1744b7-7fff-693a-b6b2-92d5b708efa0" style="font-size: 13px;">
+                                                    <span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;">
+                                                        <span id="docs-internal-guid-4f892dad-7fff-0e1a-c4c6-583ef0071a09" style="font-size: 13px;">
+                                                            <ul style="margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px; font-size: 13px;">
+                                                                <li dir="ltr" style="list-style-type: disc; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;" aria-level="1">
+                                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; text-align: justify; margin-top: 12pt; margin-bottom: 0pt; font-size: 13px;" role="presentation">
+                                                                        <font style="font-size: 13px;">
+                                                                            Attainment of Health and Weight Objectives
+                                                                        </font>
+                                                                        <br style="font-size: 13px;"/>
+                                                                    </p>
+                                                                </li>
+                                                                <li dir="ltr" style="list-style-type: disc; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;" aria-level="1">
+                                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; text-align: justify; margin-top: 12pt; margin-bottom: 0pt; font-size: 13px;" role="presentation">
+                                                                        <font style="font-size: 13px;">
+                                                                            User Satisfaction and Experience
+                                                                        </font>
+                                                                        <br style="font-size: 13px;"/>
+                                                                    </p>
+                                                                </li>
+                                                                <li dir="ltr" style="list-style-type: disc; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; font-size: 13px;" aria-level="1">
+                                                                    <p dir="ltr" style="line-height: 1.38; margin-right: 7pt; text-align: justify; margin-top: 12pt; margin-bottom: 0pt; font-size: 13px;" role="presentation">
+                                                                        <font style="font-size: 13px;">
+                                                                            Weight management
+                                                                        </font>
+                                                                    </p>
+                                                                </li>
+                                                            </ul>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="797" y="170" fill="#000000" font-family="Times New Roman" font-size="13px" font-weight="bold">
+                    Attainment of Health and Weight Ob...
+                </text>
+            </switch>
+        </g>
+        <path d="M 741 166 L 780.9 166" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 787.65 166 L 778.65 170.5 L 780.9 166 L 778.65 161.5 Z" fill="#000000" stroke="#000000" stroke-width="3" stroke-miterlimit="10" pointer-events="none"/>
     </g>
     <switch>
         <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
